@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+<header>
+  <nav class="navbar-container">
+    <div class="dark-mode-icon-container">
+    <i class="fa fa-moon dark-icon action-icon" id="dark-id" onclick="switchToDarkMode()"> 
+      <span class="display-mode-text"> Display Mode </span> 
+    </i>
+    </div>
+    <ul class="nav-link" id="nav-link" role=
+        "navigation">
+      <li class="nav-item"> <a href="#contact-form"> About </a></li>
+      <li class=" nav-item"> <a href="#about">Contact </a></li>
+    </ul>
+    </nav>
+</header>
+
+<main>
+  <section class="banner-container">
+    <article class="img-banner">
+      <img src="https://i.ibb.co/3NJ0rNc/Screenshot-20200802-022950-Photos-removebg-preview.png" alt="Ankit avatar's image">
+      </article>
+    <article class="about-text">
+      <h1 class="typewriter"> Hello Mate! I am Ankit. <h1>
+      <h2> Fuelled by a passion for building compelling products, I have a deep desire to excel and continuously improve in my work. Learn more about my journey below.
+      </h2>
+    </article>
+  </section>
+  
+  <div class="about" id="about">
+    <div class="about-header"> About me </div>
+  <div class="about-container">
+    <div class="about-summary">
+      Always up for a challenge, I have worked for lean start-ups as an employee for Nineleaps and was the man behind Wadhwani Enterpreneur Website, the largest start-up accelerator in India. From there, I worked my way up to be a better React Developer and oversaw the design of 73String's mobile and desktop apps. Currently, I lead UI/UX design and Frontend development of the Practo tean.
+    </div>
+    <div class="skills">
+      <ul class="skill-list">
+        <li class="skill-item">HTML</li>
+        <li class="skill-item">CSS</li>
+        <li class="skill-item">Javascript</li>
+        <li class="skill-item">ES6</li>
+        <li class="skill-item">React</li>
+        <li class="skill-item">Angular 2+</li>
+        <li class="skill-item"> Frontend Architecture</li>
+        <li class="skill-item">Git</li>
+        <li class="skill-item">NodeJS</li>
+        <li class="skill-item">MongoDB</li>
+        <li class="skill-item">REST</li>
+        <li class="skill-item">SASS</li>
+        <li class="skill-item">GraphQL</li>
+        <li class="skill-item">Material UI</li>
+        <li class="skill-item">Bootstrap</li>
+        <li class="skill-item">PUG</li>
+        <li class="skill-item">Leadership</li>
+        <li class="skill-item">Productivity</li>
+        <li class="skill-item">Teamwork</li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  <div class="testimonial"> 
+    <div class="testimonial-header"> On working with me </div>
+    <div class="testimony-container">
+      <div class="img-testimonial">
+        <img src="https://joeschmoe.io/api/v1/male/random" alt="Naman avatar" class="avatar-testimony">
+      </div>
+      <div class="testimonial-summary">
+        <blockquote class="quote"> 
+          "Ankit is a guru at all things UX design, consistently producing intuitive, modern, and bold designs. He is a natural problem solver in the design space so everyone went to him if they were stuck on a feature or flow. He has a arsenal of design skills including animation and graphic design. Not to mention, AKJ was a design team lead, which means he managed a full team of both onshore and offshore designs reviewing and providing feedback on all of their designs... Any business would be lucky to have him."
+        </blockquote>
+        <cite>
+          Naman Bhardwaj, Global Logic
+        </cite>
+      </div>
+    </div>
+  </div>
+  
+  <form id="contact-form" action="https://formspree.io/f/mgergegl"
+    method="POST">
+  <div class="contact-page">
+    <div class="contact-header">
+      
+      <h1> Have an idea to share? Let's get in touch
+    </div>
+    <div class="contact-form">
+      <div class="row">
+        
+      <input type="text" name="name" placeholder="Enter your name" id="visitor-name" required>
+      <input type="email" id="visitor-email" name="_replyTo" placeholder="Enter your email" required>
+       </div>
+      <textarea rows="5" name="message" column="40" placeholder="Enter your message" id="visitor-message" required> </textarea>
+      <input type="submit" id="submit-btn"></input>
+      <p id="my-form-status"></p>
+    </div>
+  </div>
+  </form>
+   <!-- </div> -->
+</main>
+
+  
+  
+  <footer>
+    <div class="social-links">
+      <div class="social-img-container">
+<!--        <img src="https://i.ibb.co/hY7skpK/Ankit-removebg-preview.png"></img>  -->
+    </div>
+      <ul class="links">
+        <li><a href="https://www.linkedin.com/in/ankit-kumar-jha-954348159/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.codepen.io/" target="_blank"><i class="fa fa-code"></i></a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact-form">Contact</a></li>
+      </ul>
+    </div>
+    <div class="copyright-text">
+      Copyright © 2021 Ankit. All rights reserved.
+    </div>
+        <div class="copyright-text js-text">
+          Made with Pure HTML/CSS/JS. No frameworks/libraries used &#9825
+    </div>
+  </footer>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
