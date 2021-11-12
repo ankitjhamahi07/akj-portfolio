@@ -6,6 +6,8 @@
   margin:0;
 }
 
+  
+
 html {
   scroll-behavior: smooth;
 }
@@ -65,6 +67,7 @@ header {
   display:flex;
   justify-content:space-between;
   align-items:center;
+  background-color: #2c353990;
   padding:10px;
 }
 
@@ -82,9 +85,9 @@ header {
   margin-right:30px;
 }
 
-.nav-item:hover {
+.nav-item a:hover {
   cursor:pointer;
-  color:#8f929e;
+  color: white;
 }
 
 .nav-icons i{
