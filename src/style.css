@@ -336,13 +336,32 @@ footer a {
 
 .copyright-text {
   margin:0 auto;
-  color:grey;
+  color:black;
+  font-weight: 700;
 }
 
 .links li a {
   cursor:pointer;
-  color:#8f929e;
+  color: black;
 }
+
+.links li a :hover {
+  color:white;
+}
+
+.links li a .fa {
+  color:black
+}
+
+.links li a .fa:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+.dark-mode .copyright-text, .dark-mode .links li a, .dark-mode .links li a .fa  {
+  color: #ffffff87;
+}
+
 
 .night-button {
   display:flex;
@@ -618,4 +637,5 @@ footer a {
     justify-content: center;
     align-items: center;
   }
+
 }
